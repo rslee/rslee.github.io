@@ -1,4 +1,4 @@
-# 我的技术编年史
+# 开发的那些事
 
 ## 1. 前言
 
@@ -6,4 +6,5 @@
 
 ## 2. 目录
 
-1. [HTTP请求的那些事](http://rslee.github.io/pages/reviews/the-http-request.md)
+1. [我的技术编年史](http://rslee.github.io/pages/reviews/my-program-history.md)
+2. [HTTP请求的那些事](http://rslee.github.io/pages/reviews/the-http-request.md)
