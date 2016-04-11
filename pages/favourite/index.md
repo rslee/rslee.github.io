@@ -6,6 +6,7 @@
 
 1. 浏览器同源政策及其规避方法：http://www.oschina.net/news/72347/same-origin-policy
 2. 淘宝首页性能优化实践:http://www.oschina.net/news/72346/taobao-performance-optimization
+3. 去死吧，精益创业，你们不是在硅谷:http://www.donews.com/idonews/article/4938.shtm
 
 ### 2016-04-07
 
