@@ -3,7 +3,8 @@
 ## 2016-04
 
 ### 2016-04-15
-1.Python趣味编程：定时给Ta讲笑话 : http://python.jobbole.com/84796/
+1. Python趣味编程：定时给Ta讲笑话 : http://python.jobbole.com/84796/
+2. web前端就业班:http://j.jikexueyuan.com/train/webdeveloper?hmsr=blogread_weibo_jiuye_web_0415
 
 ### 2016-04-11
 
