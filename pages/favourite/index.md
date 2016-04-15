@@ -2,6 +2,9 @@
 
 ## 2016-04
 
+### 2016-04-15
+1.Python趣味编程：定时给Ta讲笑话 : http://python.jobbole.com/84796/
+
 ### 2016-04-11
 
 1. 浏览器同源政策及其规避方法：http://www.oschina.net/news/72347/same-origin-policy
