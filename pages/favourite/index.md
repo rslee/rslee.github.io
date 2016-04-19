@@ -5,6 +5,9 @@
 2. 常用docker命令，及一些坑：http://blog.csdn.net/wsscy2004/article/details/25878363
 3. 关于Docker你不知道的事——虚拟化历史：http://geek.csdn.net/news/detail/66525
 4. docker专栏:http://blog.csdn.net/wsscy2004/article/category/2255935
+5. 如何查看当前Ubuntu系统的版本:http://www.oschina.net/question/565065_115147?sort=time
+6. ubuntu server 系统，更换阿里云源:http://www.2cto.com/os/201512/452041.html
+7. vi的撤销命令:http://blog.csdn.net/imyang2007/article/details/7783231
 
 ### 2016-04-15
 1. Python趣味编程：定时给Ta讲笑话 : http://python.jobbole.com/84796/
