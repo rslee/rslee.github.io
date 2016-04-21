@@ -1,6 +1,9 @@
 # 个人网络收藏
 
-## 2016-04-19
+### 2016-04-21
+1. scrum全面介绍：http://www.scrumcn.com/agile/scrum-knowledge-library/scrum.html#tab-id-1
+
+### 2016-04-19
 1. Docker学习笔记之一，搭建一个JAVA Tomcat运行环境：http://www.blogjava.net/yongboy/archive/2013/12/12/407498.html
 2. 常用docker命令，及一些坑：http://blog.csdn.net/wsscy2004/article/details/25878363
 3. 关于Docker你不知道的事——虚拟化历史：http://geek.csdn.net/news/detail/66525
