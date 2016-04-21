@@ -2,6 +2,7 @@
 
 ### 2016-04-21
 1. scrum全面介绍：http://www.scrumcn.com/agile/scrum-knowledge-library/scrum.html#tab-id-1
+2. 使用看板进行敏捷开发：http://my.oschina.net/huangyong/blog/196883
 
 ### 2016-04-19
 1. Docker学习笔记之一，搭建一个JAVA Tomcat运行环境：http://www.blogjava.net/yongboy/archive/2013/12/12/407498.html
