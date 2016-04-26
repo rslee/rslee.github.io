@@ -128,6 +128,41 @@ vi /etc/apt/source.list
 
 在http所在的域名前面加上`.cn`，切换到我天朝的域名。我这边基于ubuntu15.04版本的配置如下：
 ```
+# See http://help.ubuntu.com/community/UpgradeNotes for how to upgrade to
+# newer versions of the distribution.
+
+deb http://cn.archive.ubuntu.com/ubuntu/ vivid main restricted
+deb-src http://cn.archive.ubuntu.com/ubuntu/ vivid main restricted
+
+## Major bug fix updates produced after the final release of the
+## distribution.
+deb http://cn.archive.ubuntu.com/ubuntu/ vivid-updates main restricted
+deb-src http://cn.archive.ubuntu.com/ubuntu/ vivid-updates main restricted
+
+## Uncomment the following two lines to add software from the 'universe'
+## repository.
+## N.B. software from this repository is ENTIRELY UNSUPPORTED by the Ubuntu
+## team. Also, please note that software in universe WILL NOT receive any
+## review or updates from the Ubuntu security team.
+deb http://cn.archive.ubuntu.com/ubuntu/ vivid universe
+deb-src http://cn.archive.ubuntu.com/ubuntu/ vivid universe
+deb http://cn.archive.ubuntu.com/ubuntu/ vivid-updates universe
+deb-src http://cn.archive.ubuntu.com/ubuntu/ vivid-updates universe
+
+## N.B. software from this repository may not have been tested as
+## extensively as that contained in the main release, although it includes
+## newer versions of some applications which may provide useful features.
+## Also, please note that software in backports WILL NOT receive any review
+## or updates from the Ubuntu security team.
+# deb http://archive.ubuntu.com/ubuntu/ vivid-backports main restricted
+# deb-src http://archive.ubuntu.com/ubuntu/ vivid-backports main restricted
+
+deb http://cn.archive.ubuntu.com/ubuntu/ vivid-security main restricted
+deb-src http://cn.archive.ubuntu.com/ubuntu/ vivid-security main restricted
+deb http://cn.archive.ubuntu.com/ubuntu/ vivid-security universe
+deb-src http://cn.archive.ubuntu.com/ubuntu/ vivid-security universe
+# deb http://archive.ubuntu.com/ubuntu/ vivid-security multiverse
+# deb-src http://archive.ubuntu.com/ubuntu/ vivid-security multiverse
 
 ```
 搞完执行下`apt update`命令，看是不是快多了？
@@ -136,9 +171,33 @@ vi /etc/apt/source.list
 
 ### 重新运行容器
 
+退出容器以后，想重新再进入上次运行过的容器里面的话，可以执行如下的操作：
 
+首先是查看一下最近运行的容器id：
+```
+docker ps -l
+```
+
+我这边的输出为：
+```
+CONTAINER ID        IMAGE               COMMAND             CREATED             STATUS                          PORTS               NAMES
+a9ec25dbea53        runtime:base        "/bin/bash"         4 minutes ago       Exited (0) About a minute ago                       desperate_colden
+
+```
+这个`a9ec25dbea53`就是容器的id,然后执行如下的命令重启容器：
+
+```
+docker restart a9ec25dbea53
+```
+重新进入容器
+```
+ docker attach a9ec25dbea53
+```
+这里要注意的一点是执行完命令以后系统光标不动了，这时候按一下回车就可以了。
 
 ### 提交更改到镜像
+
+
 
 ### 挂载本地磁盘/虚拟磁盘到容器
 
