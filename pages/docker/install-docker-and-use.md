@@ -87,7 +87,7 @@ curl -sSL https://get.daocloud.io/daomonit/install.sh | sh -s ffd82b06ef8c488fe8
 
 然后是下载镜像
 ```
-dao pull ubuntu
+dao pull ubuntu:15.04
 ```
 
 下载完成后，执行如下命令可以查看已有的镜像
@@ -95,15 +95,53 @@ dao pull ubuntu
 docker images
 ```
 
-
 ### 基于镜像创建容器
 
-### 容器安装基本的软件
+有了镜像以后，下一步就是在镜像的基础上面运行一个容器了。你可以执行如下命令：
+```
+docker run -it ubuntu:15.04 /bin/bash
+```
+然后你就可以看到类似如下的信息：
+```
+root@621bbe4bbee0:/# 
+```
+现在大家可以直接运行ps命令看一下，发现docker的容器的话，确实只运行了指定的程序，比较节省资源。
+
+```
+  PID TTY          TIME CMD
+    1 ?        00:00:00 bash
+   10 ?        00:00:00 ps
+```
+
+由于是新的镜像，里面没有我们需要的一些软件，我们先把基础的软件都安装一下。
+
+首先是vim
+```
+apt install vim
+```
+由于没有更改apt的源，安装的过程可能会有点久，这个得耐心等待下。
+
+安装好vim以后，就可以编辑apt的源：
+```
+vi /etc/apt/source.list
+```
+
+在http所在的域名前面加上`.cn`，切换到我天朝的域名。我这边基于ubuntu15.04版本的配置如下：
+```
+
+```
+搞完执行下`apt update`命令，看是不是快多了？
+
+这一步搞完了以后，执行`exit`命令就可以退出当前运行的容器
 
 ### 重新运行容器
+
+
 
 ### 提交更改到镜像
 
 ### 挂载本地磁盘/虚拟磁盘到容器
 
 ### 创建镜像指定虚拟的ip和端口
+
+## 基于nginx+jetty+redis的高可用集成方案
