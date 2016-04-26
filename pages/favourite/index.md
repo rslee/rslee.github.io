@@ -16,6 +16,18 @@
 6. ubuntu server 系统，更换阿里云源:http://www.2cto.com/os/201512/452041.html
 7. vi的撤销命令:http://blog.csdn.net/imyang2007/article/details/7783231
 
+### 2016-04-16
+
+1. Ubuntu 15.10 x64 常用软件:http://www.cnblogs.com/sink_cup/archive/2013/04/26/1987901.html
+2. 开发者常用软件国内镜像下载:http://gmirror.org/
+3. 在Ubuntu 12.04 LTS服务器上借助KVM实现虚拟化(1):http://virtual.51cto.com/art/201206/341911.htm
+4. 思源字体：https://github.com/adobe-fonts/source-han-sans/
+
+### 2016-04-15
+1. Python趣味编程：定时给Ta讲笑话 : http://python.jobbole.com/84796/
+2. web前端就业班:http://j.jikexueyuan.com/train/webdeveloper?hmsr=blogread_weibo_jiuye_web_0415
+
+
 ### 2016-04-15
 1. Python趣味编程：定时给Ta讲笑话 : http://python.jobbole.com/84796/
 2. web前端就业班:http://j.jikexueyuan.com/train/webdeveloper?hmsr=blogread_weibo_jiuye_web_0415
