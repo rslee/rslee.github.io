@@ -1,5 +1,8 @@
 # 个人网络收藏
 
+### 2016-04-26
+1. 不做代码审查又怎样?:http://insights.thoughtworkers.org/without-code-review/
+
 ### 2016-04-21
 1. scrum全面介绍：http://www.scrumcn.com/agile/scrum-knowledge-library/scrum.html#tab-id-1
 2. 使用看板进行敏捷开发：http://my.oschina.net/huangyong/blog/196883
