@@ -1,5 +1,8 @@
 # 个人网络收藏
 
+### 2016-05-16
+1. Ubuntu访问Windows共享目录:http://www.cnblogs.com/tocy/p/ubuntu_access_windows_share_folder.html
+
 ### 2016-04-26
 1. 不做代码审查又怎样?:http://insights.thoughtworkers.org/without-code-review/
 2. Docker exec与Docker attach :http://blog.csdn.net/halcyonbaby/article/details/46884605
